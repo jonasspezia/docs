@@ -4,19 +4,19 @@ import type * as Preset from "@docusaurus/preset-classic";
 import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
-	title: "Open WebUI",
-	tagline: "ChatGPT-Style WebUI for LLMs (Formerly Ollama WebUI)",
+	title: "TeledocAI",
+	tagline: "Interface de Inteligência Artificial para Médicos",
 	favicon: "img/favicon.png",
 
 	// Set the production url of your site here
-	url: "https://openwebui.com",
+	url: "https://doctorai.teledocmedical.ai",
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
 	baseUrl: "/",
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: "open-webui", // Usually your GitHub org/user name.
+	organizationName: "jonasspezia", // Usually your GitHub org/user name.
 	projectName: "docs", // Usually your repo name.
 
 	onBrokenLinks: "throw",
@@ -26,8 +26,8 @@ const config: Config = {
 	// useful metadata like html lang. For example, if your site is Chinese, you
 	// may want to replace "en" with "zh-Hans".
 	i18n: {
-		defaultLocale: "en",
-		locales: ["en"],
+		defaultLocale: "pt_BR",
+		locales: ["pt_BR"],
 	},
 
 	// Enable Mermaid for diagrams
@@ -45,7 +45,7 @@ const config: Config = {
 					routeBasePath: "/",
 					// Please change this to your repo.
 					// Remove this to remove the "edit this page" links.
-					editUrl: "https://github.com/open-webui/docs/blob/main",
+					editUrl: "https://github.com/jonasspezia/docs/blob/main",
 					exclude: ["**/tab-**/**"],
 				},
 				// blog: false,
@@ -67,7 +67,7 @@ const config: Config = {
 		// Replace with your project's social card
 		// image: "img/docusaurus-social-card.jpg",
 		navbar: {
-			title: "Open WebUI",
+			title: "TeledocAI",
 			logo: {
 				src: "img/logo.png",
 				srcDark: "img/logo-dark.png",
@@ -93,13 +93,13 @@ const config: Config = {
 				//   position: "left",
 				// },
 				{
-					href: "https://github.com/open-webui/open-webui",
+					href: "https://teledocmedical.com",
 					position: "right",
 					className: "header-github-link",
-					"aria-label": "GitHub repository",
+					"aria-label": "TeledocAI",
 				},
 				{
-					href: "https://discord.com/invite/5rJgQTnV4s",
+					href: "https://teledocmedical.com",
 					position: "right",
 					className: "header-discord-link",
 					"aria-label": "Discord server",
@@ -131,15 +131,15 @@ const config: Config = {
 					items: [
 						{
 							label: "GitHub",
-							href: "https://github.com/open-webui/open-webui",
+							href: "https://teledocmedical.com",
 						},
 						{
 							label: "Discord",
-							href: "https://discord.gg/5rJgQTnV4s",
+							href: "https://teledocmedical.com",
 						},
 						{
 							label: "𝕏",
-							href: "https://x.com/OpenWebUI",
+							href: "https://x.com/drjonasspezia",
 						},
 					],
 				},
@@ -148,16 +148,16 @@ const config: Config = {
 					items: [
 						{
 							label: "Release Notes",
-							to: "https://github.com/open-webui/open-webui/blob/main/CHANGELOG.md",
+							to: "https://teledocmedical.com/blob/main/CHANGELOG.md",
 						},
 						{
 							label: "About",
-							to: "https://openwebui.com",
+							to: "https://teledocmedical.com",
 						},
 					],
 				},
 			],
-			// copyright: `Copyright © ${new Date().getFullYear()} OpenWebUI`,
+			// copyright: `Copyright © ${new Date().getFullYear()} TeledocAI`,
 		},
 		prism: {
 			theme: prismThemes.github,
